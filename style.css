@@ -1,0 +1,82 @@
+#sbContainer {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: auto;
+}
+
+#sbRunner {
+  width: 190px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid gray;
+  user-select: none;
+}
+
+#sbRunner div {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#sbRunner div.selected {
+  color: white;
+  background-color: green;
+}
+
+#sbCanvas {
+  border: 1px solid #888;
+}
+
+#sbContent table,
+#sbContent table td,
+#sbContent table th {
+  border-collapse: collapse;
+  border: 1px solid #888;
+}
+
+#sbContent table {
+  max-width: 80vw;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#sbContent table td.ra {
+  text-align: right;
+  vertical-align: text-top;
+}
+
+select {
+  border: 1px solid #888;
+}
+
+#sbPopup {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 304px;
+  border: 1px solid #444;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+
+#sbPopup div {
+  font-weight: bold;
+  background-color: #ccc;
+  width: 100%;
+  padding: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #444;
+  border-width: 0px 0px 1px 0px;
+}
+
+#sbPopup table {
+  width: 100%;
+  border-style: none;
+}
+
+#sbPopup table td {
+  white-space: nowrap;
+  border-style: none;
+}
